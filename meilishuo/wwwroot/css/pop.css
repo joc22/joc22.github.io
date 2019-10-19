@@ -1,0 +1,106 @@
+.popup{
+    background-color: white;
+}
+.popup header{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid red;/ */
+    padding: 0 20px;
+}
+.popup header h1{
+    font-size: 1.125rem;
+}
+.popup-about .content-block{
+    text-align: center;
+    height: 55vh
+}
+
+.popup-about .label{
+    font-size: 14px;
+}
+.popup-about .content-block input{
+    width: 90vw;
+    margin: 10px 0;
+    padding:8px 0;
+    font-size: 16px;
+    border: 0;
+    border-bottom:1px solid #dbdbdb;
+}
+.popup-about .content-block input::placeholder{
+    text-align: center;
+    font-size: 1.375rem;
+}
+.popup-about .item-input{
+    position: relative
+}
+.popup-about .clearVal{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+.popup-about .showPsw{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.popup-about .changeImg{
+    color: rgb(254, 31, 93);
+    font-size: 0.625rem;
+}
+.popup-about .button{
+    margin:10px 0;
+    border: 0;
+    outline: 0;
+    background-color: rgb(254, 31, 93);
+    color: white;
+}
+.popup-about .reg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.625rem;
+}
+.popup-about .reg a {
+    color: black
+}
+.popup-about .reg .pink{
+    color: rgb(254, 31, 93);
+}
+.popup-about .footer .or{
+    text-align: center;
+    position: relative;
+    height: 10vh;
+}
+.popup-about .footer .or hr{
+    position: absolute;
+    width: 100vw;
+    top: 2px;
+
+}
+.popup-about .footer .or span{
+    display: block;
+    padding: 0 10px;
+    background-color: white;  
+    font-size: 1rem;
+    position: absolute;
+    z-index: 666;
+    left: 45vw;
+}
+.popup-about .log{
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-about .item-code img{
+    width: 23vw;
+}
+.popup-about .item-code{
+    display: flex;
+}

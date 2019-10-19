@@ -1,0 +1,20 @@
+{
+	"code": 0,
+	"data": {
+		"user_id": "715030492",
+		"name": "",
+		"about_me": "",
+		"avatar": "http://s3.mogucdn.com/new1/v1/bdefaultavatar/04.jpg",
+		"bg_img": "http://d05.res.meilishuo.net/img/_o/e3/16/8c08906a9bef2cbe7a9b4190332e_750_610.cj.jpg",
+		"user_tag": [],
+		"vip_level": "1",
+		"vip_url": "",
+		"vip_icon": "https://s11.mogucdn.com/mlcdn/c024f5/170810_0d977d320ad17b9a1gec873l412hd_156x54.png",
+		"new_vip_icon": null,
+		"vip_point": 0,
+		"checkin_url": "http://m.meilishuo.com/huiyuan/sign",
+		"checkin": true
+	},
+	"msg": null,
+	"success": true
+}

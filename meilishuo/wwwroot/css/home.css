@@ -1,0 +1,345 @@
+html{
+    font-size: 16px;
+}
+
+.page{
+    background-color: white;
+}
+/* ------------------------------------底部导航栏--------------------------------- */
+.nav-bottom .active span{
+    color: #ea0d51;
+}
+.icon_home{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/home2.png')
+}
+
+.icon_class{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/class1.png')
+}
+
+.icon_shop{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/car1.png')
+}
+
+.icon_mine{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/my1.png')
+}
+.tab-item:active{
+    color: #ea0d51;
+}
+
+
+/* ---------------------------------------顶部搜索框------------------------------------------ */
+.header{
+    padding: 0.1875rem 0.625rem;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+
+}
+.header > div{
+    display: inline-block;
+    width: 89vw;
+    position: relative;
+    opacity: .5;
+    background-color: white;
+}
+.header >div>div{
+    width: 86%;
+    margin: 0 auto
+}
+.header > div input{
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    height:1.8125rem;
+    border: 0;
+    outline: 0;
+}
+.header > div input::placeholder{
+    font-size: 0.75rem;
+    text-align: center;
+    color: black;
+}
+
+.header > div .icon-search{
+    position: absolute;
+    top: 0.3125rem;
+    left: 0.3125rem;
+    padding: 0;
+}
+
+
+
+.header > div .icon-code{
+    width: 15px;
+    position: absolute;
+    right: 0.625rem;
+    top: 0.3125rem;
+    padding: 0;
+    z-index: 666666;
+}
+.header a {
+    color: gray;
+}
+.header .icon-message{
+    width: 1px;
+}
+
+/* 侧边框 */
+.panel{
+    width: 100vw;
+    background-color: white;
+}
+.header-right{
+    padding: 0.1875rem 0.625rem;
+    position: static;
+    padding-right:0
+}
+.header-right >div{
+    width: 87vw;
+    background-color: rgb(247,259,251);
+}
+.header-right > div input{
+    background-color: rgb(247,259,251);
+}
+
+.header-right .cancel{
+    font-size: 12px;
+}
+.header-right .icon-search{
+    color: gray
+}
+.header-right .open-panel{
+    color: gray
+}
+.hot-clock{
+    font-size: 0.625rem;
+}
+ .hot-clock  img{
+    width: 1rem;
+
+}
+.hot-clock ul li{
+    display: inline-block;
+    list-style: none;
+    width: 2.8125rem;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    margin:4px 2px; 
+    border-radius:10px;
+}
+.right-clock p{
+    position: relative;
+}
+.right-clock p span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* ---------------------------------二维码侧边框------------------------ */
+.code-header{
+    background-color: white;
+    color: black;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    font-size: 1rem;
+}
+.code-header p{
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.code-header .fanhui{
+    position: absolute;
+    left: 0;
+    top: 1.0625rem
+}
+.code-header .code-right{
+    position: absolute;
+    right: 0;
+}
+.code-content {
+    width: 100vw;
+    height: 100%;
+    background-color: black
+}
+/* ------------------------------------------轮播图------------------------------------- */
+.bar-nav~.content{
+    top: 0;
+    background-color: rgb(251, 249, 254)
+}
+.head-container{
+    padding: 0;
+}
+.head-container .swiper-slide img{
+    width: 100vw;
+}
+.head-container .swiper-pagination{
+    bottom: 1.875rem;
+}
+.head-container ul{
+    margin: 0;
+    width: 100vw;
+    padding: 0.4375rem 0;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 6666;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-container ul li {
+    float: left;
+    font-size: 0.5rem;
+}
+
+/*-------------------------中间四个圆------------------------------- */
+.item-four{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+.item-four a {
+    text-align: center;
+}
+.item-four a img{
+    width: 15vw;
+}
+.item-four a p{
+    margin: 0;
+    color: black;
+    font-size: 0.4375rem;
+}
+
+/* -----------------------------限时热卖 ---------------------*/
+.item-hot{
+    margin-top: 0.25rem;
+}
+.item-hot img{
+    width: 100vw;
+}
+
+
+/* -----------------------------正在流行----------------------- */
+.item-popular{
+    margin-bottom: 0.25rem;
+    position: relative;
+}
+.pupular-head img{
+    width: 100vw;
+}
+.pupular-head{
+    background-color: white;
+}
+.popular-content{
+    width: 100vw;
+    background-color: white;
+    overflow-x: scroll;
+}
+.popular-content .populars{
+    width: 490vw;
+    height: 42vh;
+    z-index: 666
+
+}
+.popular-content a{
+   float: left;
+    text-align: center;
+    margin-left: 6vw;
+}
+.popular-content img{
+    width: 18vw;
+}
+.popular-content p {
+    margin: 0;
+    font-size: 0.5rem;
+    color: black;
+}
+
+
+.popular-content .point{
+    position: absolute;
+    bottom: 15px;
+    left: 45vw;
+}
+.popular-content .point div{
+    width: 0.3125rem;
+    height: 0.3125rem;
+    border-radius: 50%;
+    background-color:black;
+    float: left;
+    margin-left: 0.3125rem;
+}
+.popular-content .point > .point-active{
+    background-color: #ea0d51
+}
+/* -----------------------流行单品----------------- */
+.goods-header img{
+    width: 100vw;
+}
+.goods-header{
+    background-color: white;
+}
+
+.popular-goods{
+    width: 100vw;
+    background-color: white;
+}
+.goods-content {
+    width: 100vw;
+}
+.popular-goods a{
+    float: left;
+    width: 45vw;
+    height: 19.375rem;
+    font-size: 0.625rem;
+    background-color: white;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: 0.75rem;
+}
+.goods-content .bigimg{
+    width: 100%;
+    height: 15.625rem;
+}
+.goods-content .goods-msg span{ 
+    background-color: #f2f5f7;
+    margin-right:5px;
+    color:#818b9e;
+}
+.goods-content p{
+    margin: 0;
+}
+.goods-content .goods-bottom{
+    width: 45vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.goods-content .goods-price{
+    color: black;
+    left: 0;
+}
+.goods-content .goods-star{
+    color:#818b9e;
+    display: flex;
+    align-items: center;
+}
+.goods-content .goods-star img {
+    width: 20px
+}

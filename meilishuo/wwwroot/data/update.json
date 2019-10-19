@@ -1,0 +1,811 @@
+{
+	"model": [{
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "半身裙;高腰;不规则;鹿皮绒;秋冬新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1maprxg?acm=3.ms.0_4_1maprxg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1maprxg",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_3add4e8fl0e4a5jk52j47ja09d490_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1maprxg?acm=3.ms.0_4_1maprxg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_3add4e8fl0e4a5jk52j47ja09d490_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1maprxg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "半身裙 高腰 不规则 鹿皮绒 秋冬新款",
+		"orgPrice": "￥85.58",
+		"props": ["半身裙", "高腰", "不规则", "鹿皮绒", "秋冬新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥59.90",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 21943583
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "时尚套装;套装两件套;高腰;气质;时尚;v领长袖;镂空;新款;韩版;秋冬",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapro2?acm=3.ms.0_4_1mapro2.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapro2",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_12j7e83gb24b957ge963d6jh039h0_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapro2?acm=3.ms.0_4_1mapro2.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_12j7e83gb24b957ge963d6jh039h0_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapro2.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "时尚套装 套装两件套 高腰 气质 时尚 v领长袖 镂空 新款 韩版 秋冬",
+		"orgPrice": "￥179.00",
+		"props": ["时尚套装", "套装两件套", "高腰", "气质", "时尚", "v领长袖", "镂空", "新款", "韩版", "秋冬"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥179.00",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302411317
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "宽松休闲裤;显瘦;休闲;百搭;系带;针织;气质;秋冬;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mafh9o?acm=3.ms.2_1_1mafh9o.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458532557_473357507_1_0-t_-c1_10057922_nil_nil_1_473357507_35_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjV6dzBpX2E1ZmNhMmVkNjRkMGE4OTAzMjJiOGQ1MmEwMzlkMjkxXzI4XzBfNDU4NTMyNTU3XzBfMF8xXzBfNDM4XzBfMA==",
+		"iid": "1mafh9o",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181025_7ggfhb5g8b8k2bfab7lh006a02ead_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mafh9o?acm=3.ms.2_1_1mafh9o.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458532557_473357507_1_0-t_-c1_10057922_nil_nil_1_473357507_35_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjV6dzBpX2E1ZmNhMmVkNjRkMGE4OTAzMjJiOGQ1MmEwMzlkMjkxXzI4XzBfNDU4NTMyNTU3XzBfMF8xXzBfNDM4XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181025_7ggfhb5g8b8k2bfab7lh006a02ead_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.2_1_1mafh9o.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458532557_473357507_1_0-t_-c1_10057922_nil_nil_1_473357507_35_0-lc_28",
+		"type": 2,
+		"title": "宽松休闲裤 显瘦 休闲 百搭 系带 针织 气质 秋冬 韩版 新款",
+		"orgPrice": "￥127.15",
+		"cparam": "MTU0MDk3NTc5OV8xZjV6dzBpX2E1ZmNhMmVkNjRkMGE4OTAzMjJiOGQ1MmEwMzlkMjkxXzI4XzBfNDU4NTMyNTU3XzBfMF8xXzBfNDM4XzBfMA==",
+		"props": ["宽松休闲裤", "显瘦", "休闲", "百搭", "系带", "针织", "气质", "秋冬", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "1",
+		"price": "￥89.00",
+		"cfav": "2",
+		"leftbottom_taglist": [{
+			"color": "#FFFFFF",
+			"bgColor": "#8C5C99",
+			"content": "广告",
+			"font": "Helvetica Neue"
+		}],
+		"shopId": "20479975"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "毛呢裤子;阔腿;宽松;秋冬新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mafboa?acm=3.ms.2_1_1mafboa.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457719751_473338245_2_0-t_-c1_10057922_nil_nil_1_473338245_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjUxMW9tX2JlMTBkN2E1YjNkZjBhYTg5MjY3OGVlZTY3YzNhZWMwXzI4XzFfNDU3NzE5NzUxXzBfMF8yXzBfNzA3XzBfMA==",
+		"iid": "1mafboa",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181025_8ead8j6ec7jglefd78e7645c96k47_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mafboa?acm=3.ms.2_1_1mafboa.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457719751_473338245_2_0-t_-c1_10057922_nil_nil_1_473338245_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjUxMW9tX2JlMTBkN2E1YjNkZjBhYTg5MjY3OGVlZTY3YzNhZWMwXzI4XzFfNDU3NzE5NzUxXzBfMF8yXzBfNzA3XzBfMA==",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181025_8ead8j6ec7jglefd78e7645c96k47_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1mafboa.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457719751_473338245_2_0-t_-c1_10057922_nil_nil_1_473338245_30_0-lc_28",
+		"type": 2,
+		"title": "毛呢裤子 阔腿 宽松 秋冬新款",
+		"orgPrice": "￥159.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjUxMW9tX2JlMTBkN2E1YjNkZjBhYTg5MjY3OGVlZTY3YzNhZWMwXzI4XzFfNDU3NzE5NzUxXzBfMF8yXzBfNzA3XzBfMA==",
+		"props": ["毛呢裤子", "阔腿", "宽松", "秋冬新款"],
+		"lefttop_taglist": [],
+		"sale": "68",
+		"price": "￥159.00",
+		"cfav": "7",
+		"leftbottom_taglist": [{
+			"color": "#FFFFFF",
+			"bgColor": "#FEC24A",
+			"content": "热卖",
+			"font": "Helvetica Neue"
+		}],
+		"shopId": "1302423892"
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "拉链半身裙;高腰;明线;百搭;秋冬新款;甜美;小清新;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1maprdq?acm=3.ms.0_4_1maprdq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1maprdq",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/55cf19/181031_8770jj60lfabde7492a49e27b861k_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1maprdq?acm=3.ms.0_4_1maprdq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/55cf19/181031_8770jj60lfabde7492a49e27b861k_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1maprdq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "拉链半身裙 高腰 明线 百搭 秋冬新款 甜美 小清新 韩版",
+		"orgPrice": "￥125.72",
+		"props": ["拉链半身裙", "高腰", "明线", "百搭", "秋冬新款", "甜美", "小清新", "韩版"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥125.72",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302409870
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "时尚套装;百褶裙;秋冬新款;经典;韩版;秋冬",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapqwk?acm=3.ms.0_4_1mapqwk.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapqwk",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_411j216i39a9b9cf459gcdd5kfjjb_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapqwk?acm=3.ms.0_4_1mapqwk.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_411j216i39a9b9cf459gcdd5kfjjb_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapqwk.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "时尚套装 百褶裙 秋冬新款 经典 韩版 秋冬",
+		"orgPrice": "￥127.00",
+		"props": ["时尚套装", "百褶裙", "秋冬新款", "经典", "韩版", "秋冬"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥88.90",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 20791755
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "长袖t恤;宽松;加肥加大;加厚;加绒;休闲;秋冬;新款;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1madjl4?acm=3.ms.2_1_1madjl4.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458171453_473205521_3_0-t_-c1_10057922_nil_nil_1_473205521_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVrZXI2X2I0MWQzZmM1Yjc3Mjc2OTVhOGRiMWE5Mjk3MzZiYjk0XzI4XzJfNDU4MTcxNDUzXzBfMF8zXzBfMTAwMV8wXzA=",
+		"iid": "1madjl4",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181025_18ijelggb45h2l2cdk877d8khj59c_640x832.jpg_560x999.jpg",
+			"w": 560,
+			"h": 728
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1madjl4?acm=3.ms.2_1_1madjl4.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458171453_473205521_3_0-t_-c1_10057922_nil_nil_1_473205521_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVrZXI2X2I0MWQzZmM1Yjc3Mjc2OTVhOGRiMWE5Mjk3MzZiYjk0XzI4XzJfNDU4MTcxNDUzXzBfMF8zXzBfMTAwMV8wXzA=",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181025_18ijelggb45h2l2cdk877d8khj59c_640x832.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "1525 166 16",
+		"acm": "3.ms.2_1_1madjl4.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458171453_473205521_3_0-t_-c1_10057922_nil_nil_1_473205521_30_0-lc_28",
+		"type": 2,
+		"title": "长袖t恤 宽松 加肥加大 加厚 加绒 休闲 秋冬 新款 韩版",
+		"orgPrice": "￥69.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjVrZXI2X2I0MWQzZmM1Yjc3Mjc2OTVhOGRiMWE5Mjk3MzZiYjk0XzI4XzJfNDU4MTcxNDUzXzBfMF8zXzBfMTAwMV8wXzA=",
+		"props": ["长袖t恤", "宽松", "加肥加大", "加厚", "加绒", "休闲", "秋冬", "新款", "韩版"],
+		"lefttop_taglist": [],
+		"sale": "19",
+		"price": "￥48.00",
+		"cfav": "20",
+		"leftbottom_taglist": [],
+		"shopId": "1302410734"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "长袖修身t恤;百搭;半高领;新款;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mad9h0?acm=3.ms.2_1_1mad9h0.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458077158_473169928_4_0-t_-c1_10057922_nil_nil_1_473169928_40_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVnZDhrX2NiZTM2MTZiYjk4ZmNhZTFmZjRjOWI1NDczMzQ3MGNkXzI4XzNfNDU4MDc3MTU4XzBfMF80XzBfOThfMF8w",
+		"iid": "1mad9h0",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181024_85k87ek3g8il7je77ah16ll2704c9_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mad9h0?acm=3.ms.2_1_1mad9h0.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458077158_473169928_4_0-t_-c1_10057922_nil_nil_1_473169928_40_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVnZDhrX2NiZTM2MTZiYjk4ZmNhZTFmZjRjOWI1NDczMzQ3MGNkXzI4XzNfNDU4MDc3MTU4XzBfMF80XzBfOThfMF8w",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181024_85k87ek3g8il7je77ah16ll2704c9_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "352 351",
+		"acm": "3.ms.2_1_1mad9h0.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458077158_473169928_4_0-t_-c1_10057922_nil_nil_1_473169928_40_0-lc_28",
+		"type": 2,
+		"title": "长袖修身t恤 百搭 半高领 新款 韩版",
+		"orgPrice": "￥70.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjVnZDhrX2NiZTM2MTZiYjk4ZmNhZTFmZjRjOWI1NDczMzQ3MGNkXzI4XzNfNDU4MDc3MTU4XzBfMF80XzBfOThfMF8w",
+		"props": ["长袖修身t恤", "百搭", "半高领", "新款", "韩版"],
+		"lefttop_taglist": [],
+		"sale": "6",
+		"price": "￥49.00",
+		"cfav": "3",
+		"leftbottom_taglist": [],
+		"shopId": "1302445430"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "一步裙;高腰;开叉;显瘦;黑色;秋冬;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma8g8i?acm=3.ms.2_1_1ma8g8i.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457515818_472919238_5_0-t_-c1_10057922_nil_nil_1_472919238_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjRzYXowXzlhZWIzZjY2NGYzZTM1MTVkODM1MjUwYmNlNTQ1M2QxXzI4XzRfNDU3NTE1ODE4XzBfMF81XzBfNDM0XzBfMA==",
+		"iid": "1ma8g8i",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181022_0c269dklh2ehji6jk7gb7l30i5a1k_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma8g8i?acm=3.ms.2_1_1ma8g8i.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457515818_472919238_5_0-t_-c1_10057922_nil_nil_1_472919238_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjRzYXowXzlhZWIzZjY2NGYzZTM1MTVkODM1MjUwYmNlNTQ1M2QxXzI4XzRfNDU3NTE1ODE4XzBfMF81XzBfNDM0XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181022_0c269dklh2ehji6jk7gb7l30i5a1k_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "352 1558 166 16 351",
+		"acm": "3.ms.2_1_1ma8g8i.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457515818_472919238_5_0-t_-c1_10057922_nil_nil_1_472919238_30_0-lc_28",
+		"type": 2,
+		"title": "一步裙 高腰 开叉 显瘦 黑色 秋冬 韩版 新款",
+		"orgPrice": "￥148.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjRzYXowXzlhZWIzZjY2NGYzZTM1MTVkODM1MjUwYmNlNTQ1M2QxXzI4XzRfNDU3NTE1ODE4XzBfMF81XzBfNDM0XzBfMA==",
+		"props": ["一步裙", "高腰", "开叉", "显瘦", "黑色", "秋冬", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "43",
+		"price": "￥103.60",
+		"cfav": "19",
+		"leftbottom_taglist": [],
+		"shopId": "1302445592"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "薄款裤子;九分;黑色;显瘦;大码;加绒加厚;纯棉;春秋;秋季;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1maar0g?acm=3.ms.2_1_1maar0g.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457223474_472854482_6_0-t_-c1_10057922_nil_nil_1_472854482_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjRmcnRvX2RkYWExODNhMmQzZWZiOTdkZmQ2YTY3NTA2MjM5OTIxXzI4XzVfNDU3MjIzNDc0XzBfMF82XzBfMTQ4XzBfMA==",
+		"iid": "1maar0g",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181023_0h84eb7k5gg76gd0fh8edhk492j19_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1maar0g?acm=3.ms.2_1_1maar0g.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457223474_472854482_6_0-t_-c1_10057922_nil_nil_1_472854482_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjRmcnRvX2RkYWExODNhMmQzZWZiOTdkZmQ2YTY3NTA2MjM5OTIxXzI4XzVfNDU3MjIzNDc0XzBfMF82XzBfMTQ4XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181023_0h84eb7k5gg76gd0fh8edhk492j19_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.2_1_1maar0g.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457223474_472854482_6_0-t_-c1_10057922_nil_nil_1_472854482_30_0-lc_28",
+		"type": 2,
+		"title": "薄款裤子 九分 黑色 显瘦 大码 加绒加厚 纯棉 春秋 秋季 韩版 新款",
+		"orgPrice": "￥83.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjRmcnRvX2RkYWExODNhMmQzZWZiOTdkZmQ2YTY3NTA2MjM5OTIxXzI4XzVfNDU3MjIzNDc0XzBfMF82XzBfMTQ4XzBfMA==",
+		"props": ["薄款裤子", "九分", "黑色", "显瘦", "大码", "加绒加厚", "纯棉", "春秋", "秋季", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "18",
+		"price": "￥58.10",
+		"cfav": "14",
+		"leftbottom_taglist": [],
+		"shopId": "1302445048"
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "休闲裤;显瘦哈伦裤;高腰;抽绳;宽松;休闲;秋冬新款;个性;拼接;时尚;加绒;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapqqg?acm=3.ms.0_4_1mapqqg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapqqg",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_4hfb58fd1hid8h5cl6ik93i456g9c_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapqqg?acm=3.ms.0_4_1mapqqg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_4hfb58fd1hid8h5cl6ik93i456g9c_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapqqg.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "休闲裤 显瘦哈伦裤 高腰 抽绳 宽松 休闲 秋冬新款 个性 拼接 时尚 加绒 韩版",
+		"orgPrice": "￥105.00",
+		"props": ["休闲裤", "显瘦哈伦裤", "高腰", "抽绳", "宽松", "休闲", "秋冬新款", "个性", "拼接", "时尚", "加绒", "韩版"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥73.50",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 10748949
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "时尚套装;长裤套装;高腰;高领;加绒;复古;秋季;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mappy4?acm=3.ms.0_4_1mappy4.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mappy4",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_6b288aek3692475l68ai692hf0lbf_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mappy4?acm=3.ms.0_4_1mappy4.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_6b288aek3692475l68ai692hf0lbf_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mappy4.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "时尚套装 长裤套装 高腰 高领 加绒 复古 秋季 新款",
+		"orgPrice": "￥98.58",
+		"props": ["时尚套装", "长裤套装", "高腰", "高领", "加绒", "复古", "秋季", "新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥98.58",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302424489
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "宽松裤子;百搭;加厚;秋冬季;街拍;女生;原宿风;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1maa6bu?acm=3.ms.2_1_1maa6bu.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458233544_472783374_7_0-t_-c1_10057922_nil_nil_1_472783374_40_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVuMmtvXzM2MWY5YWZmNzQzMGRhZWE1MmI1YWQxNDI4OWEzMTVhXzI4XzZfNDU4MjMzNTQ0XzBfMF83XzBfOTU2XzBfMA==",
+		"iid": "1maa6bu",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181023_0jjk78916ebid8f1jlik79fk64a1g_1000x1500.jpg_560x999.jpg",
+			"w": 560,
+			"h": 841
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1maa6bu?acm=3.ms.2_1_1maa6bu.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458233544_472783374_7_0-t_-c1_10057922_nil_nil_1_472783374_40_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjVuMmtvXzM2MWY5YWZmNzQzMGRhZWE1MmI1YWQxNDI4OWEzMTVhXzI4XzZfNDU4MjMzNTQ0XzBfMF83XzBfOTU2XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181023_0jjk78916ebid8f1jlik79fk64a1g_1000x1500.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "352 166 16 351",
+		"acm": "3.ms.2_1_1maa6bu.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_458233544_472783374_7_0-t_-c1_10057922_nil_nil_1_472783374_40_0-lc_28",
+		"type": 2,
+		"title": "宽松裤子 百搭 加厚 秋冬季 街拍 女生 原宿风 韩版 新款",
+		"orgPrice": "￥108.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjVuMmtvXzM2MWY5YWZmNzQzMGRhZWE1MmI1YWQxNDI4OWEzMTVhXzI4XzZfNDU4MjMzNTQ0XzBfMF83XzBfOTU2XzBfMA==",
+		"props": ["宽松裤子", "百搭", "加厚", "秋冬季", "街拍", "女生", "原宿风", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "6",
+		"price": "￥108.00",
+		"cfav": "14",
+		"leftbottom_taglist": [],
+		"shopId": "21849440"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "毛呢哈伦裤;松紧腰;厚呢子;高腰;显瘦;大码;宽松;秋冬;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma9bxo?acm=3.ms.2_1_1ma9bxo.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455863663_472686302_8_0-t_-c1_10057922_nil_nil_1_472686302_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJ0aGNtXzk1Yjk5NzgyYjE4ZmY1MmVmMGZhYTc5ZTE1NWYwOTJjXzI4XzdfNDU1ODYzNjYzXzBfMF84XzBfMjAzXzBfMA==",
+		"iid": "1ma9bxo",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181023_86h9e5ale23kb8c4896b8h4bk0i28_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma9bxo?acm=3.ms.2_1_1ma9bxo.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455863663_472686302_8_0-t_-c1_10057922_nil_nil_1_472686302_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJ0aGNtXzk1Yjk5NzgyYjE4ZmY1MmVmMGZhYTc5ZTE1NWYwOTJjXzI4XzdfNDU1ODYzNjYzXzBfMF84XzBfMjAzXzBfMA==",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181023_86h9e5ale23kb8c4896b8h4bk0i28_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "352 351",
+		"acm": "3.ms.2_1_1ma9bxo.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455863663_472686302_8_0-t_-c1_10057922_nil_nil_1_472686302_30_0-lc_28",
+		"type": 2,
+		"title": "毛呢哈伦裤 松紧腰 厚呢子 高腰 显瘦 大码 宽松 秋冬 新款",
+		"orgPrice": "￥80.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjJ0aGNtXzk1Yjk5NzgyYjE4ZmY1MmVmMGZhYTc5ZTE1NWYwOTJjXzI4XzdfNDU1ODYzNjYzXzBfMF84XzBfMjAzXzBfMA==",
+		"props": ["毛呢哈伦裤", "松紧腰", "厚呢子", "高腰", "显瘦", "大码", "宽松", "秋冬", "新款"],
+		"lefttop_taglist": [],
+		"sale": "13",
+		"price": "￥56.00",
+		"cfav": "29",
+		"leftbottom_taglist": [],
+		"shopId": "20857448"
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "半身裙;a字裙伞裙;高腰;秋冬新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapp8s?acm=3.ms.0_4_1mapp8s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapp8s",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_3l9a2f0i9fgl17d8ei769ca1i5ia4_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapp8s?acm=3.ms.0_4_1mapp8s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_3l9a2f0i9fgl17d8ei769ca1i5ia4_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapp8s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "半身裙 a字裙伞裙 高腰 秋冬新款",
+		"orgPrice": "￥79.72",
+		"props": ["半身裙", "a字裙伞裙", "高腰", "秋冬新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥79.72",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302420714
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "休闲裤;阔腿裤;金丝绒;高腰;直筒;宽松;秋冬;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapom0?acm=3.ms.0_4_1mapom0.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapom0",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_6008cifadh3k8ld2hb622ifkdblj0_800x800.jpg_560x999.jpg",
+			"w": 560,
+			"h": 560
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapom0?acm=3.ms.0_4_1mapom0.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_6008cifadh3k8ld2hb622ifkdblj0_800x800.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapom0.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "休闲裤 阔腿裤 金丝绒 高腰 直筒 宽松 秋冬 新款",
+		"orgPrice": "￥145.00",
+		"props": ["休闲裤", "阔腿裤", "金丝绒", "高腰", "直筒", "宽松", "秋冬", "新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥145.00",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302407140
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "毛呢裤;九分;高腰;黑色;显瘦;加厚;秋冬;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma81wq?acm=3.ms.2_1_1ma81wq.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515911_472516832_9_0-t_-c1_10057922_nil_nil_1_472516832_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJla3AyXzg0NjNhYmU3YjllNzlhZmVlZTE2NzJlYWVhNmFmMDYwXzI4XzhfNDU1NTE1OTExXzBfMF85XzBfNF8wXzA=",
+		"iid": "1ma81wq",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181022_83c8hia6g45kd845dhbk6680272bj_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma81wq?acm=3.ms.2_1_1ma81wq.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515911_472516832_9_0-t_-c1_10057922_nil_nil_1_472516832_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJla3AyXzg0NjNhYmU3YjllNzlhZmVlZTE2NzJlYWVhNmFmMDYwXzI4XzhfNDU1NTE1OTExXzBfMF85XzBfNF8wXzA=",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181022_83c8hia6g45kd845dhbk6680272bj_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.2_1_1ma81wq.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515911_472516832_9_0-t_-c1_10057922_nil_nil_1_472516832_39_0-lc_28",
+		"type": 2,
+		"title": "毛呢裤 九分 高腰 黑色 显瘦 加厚 秋冬 新款",
+		"orgPrice": "￥71.42",
+		"cparam": "MTU0MDk3NTc5OV8xZjJla3AyXzg0NjNhYmU3YjllNzlhZmVlZTE2NzJlYWVhNmFmMDYwXzI4XzhfNDU1NTE1OTExXzBfMF85XzBfNF8wXzA=",
+		"props": ["毛呢裤", "九分", "高腰", "黑色", "显瘦", "加厚", "秋冬", "新款"],
+		"lefttop_taglist": [],
+		"sale": "4",
+		"price": "￥49.99",
+		"cfav": "4",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "烟管裤;九分;黑色;宽松显瘦;百搭;秋冬新款;加厚",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma814m?acm=3.ms.2_1_1ma814m.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515912_472514670_10_0-t_-c1_10057922_nil_nil_1_472514670_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJla3A0X2Y0MzI4OGEyMWQzZWZlMGZjMTM0MzlhN2QzYWEyNDgyXzI4XzlfNDU1NTE1OTEyXzBfMF8xMF8wXzRfMF8w",
+		"iid": "1ma814m",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181022_1fg8dbd5ea1809gkj4dg713g2k22g_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma814m?acm=3.ms.2_1_1ma814m.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515912_472514670_10_0-t_-c1_10057922_nil_nil_1_472514670_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjJla3A0X2Y0MzI4OGEyMWQzZWZlMGZjMTM0MzlhN2QzYWEyNDgyXzI4XzlfNDU1NTE1OTEyXzBfMF8xMF8wXzRfMF8w",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181022_1fg8dbd5ea1809gkj4dg713g2k22g_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1ma814m.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455515912_472514670_10_0-t_-c1_10057922_nil_nil_1_472514670_39_0-lc_28",
+		"type": 2,
+		"title": "烟管裤 九分 黑色 宽松显瘦 百搭 秋冬新款 加厚",
+		"orgPrice": "￥71.42",
+		"cparam": "MTU0MDk3NTc5OV8xZjJla3A0X2Y0MzI4OGEyMWQzZWZlMGZjMTM0MzlhN2QzYWEyNDgyXzI4XzlfNDU1NTE1OTEyXzBfMF8xMF8wXzRfMF8w",
+		"props": ["烟管裤", "九分", "黑色", "宽松显瘦", "百搭", "秋冬新款", "加厚"],
+		"lefttop_taglist": [],
+		"sale": "7",
+		"price": "￥49.99",
+		"cfav": "7",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "毛呢裤;九分;哈伦;直筒;宽松;秋冬;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma7cy2?acm=3.ms.2_1_1ma7cy2.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371758_472424466_11_0-t_-c1_10057922_nil_nil_1_472424466_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThrX2U3NTZkYzYyNjlmOTlhOWFhNmYyMTI3MDM4NTMzZWI4XzI4XzEwXzQ1NTM3MTc1OF8wXzBfMTFfMF80XzBfMA==",
+		"iid": "1ma7cy2",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181021_547lec6ik5099c018je907b3da5k6_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma7cy2?acm=3.ms.2_1_1ma7cy2.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371758_472424466_11_0-t_-c1_10057922_nil_nil_1_472424466_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThrX2U3NTZkYzYyNjlmOTlhOWFhNmYyMTI3MDM4NTMzZWI4XzI4XzEwXzQ1NTM3MTc1OF8wXzBfMTFfMF80XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181021_547lec6ik5099c018je907b3da5k6_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1ma7cy2.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371758_472424466_11_0-t_-c1_10057922_nil_nil_1_472424466_39_0-lc_28",
+		"type": 2,
+		"title": "毛呢裤 九分 哈伦 直筒 宽松 秋冬 新款",
+		"orgPrice": "￥71.42",
+		"cparam": "MTU0MDk3NTc5OV8xZjI4ZThrX2U3NTZkYzYyNjlmOTlhOWFhNmYyMTI3MDM4NTMzZWI4XzI4XzEwXzQ1NTM3MTc1OF8wXzBfMTFfMF80XzBfMA==",
+		"props": ["毛呢裤", "九分", "哈伦", "直筒", "宽松", "秋冬", "新款"],
+		"lefttop_taglist": [],
+		"sale": "7",
+		"price": "￥49.99",
+		"cfav": "15",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "毛呢短裤;阔腿;高腰;黑色;宽松;休闲;加厚;秋冬季;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma7c76?acm=3.ms.2_1_1ma7c76.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371755_472421512_12_0-t_-c1_10057922_nil_nil_1_472421512_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThlXzJlMzI1OTBjNDNkMjBhNDA4YzkzOTU0NWYxOGNhY2QyXzI4XzExXzQ1NTM3MTc1NV8wXzBfMTJfMF80XzBfMA==",
+		"iid": "1ma7c76",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181021_63e823826f8g6f835id96lchdd73j_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma7c76?acm=3.ms.2_1_1ma7c76.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371755_472421512_12_0-t_-c1_10057922_nil_nil_1_472421512_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThlXzJlMzI1OTBjNDNkMjBhNDA4YzkzOTU0NWYxOGNhY2QyXzI4XzExXzQ1NTM3MTc1NV8wXzBfMTJfMF80XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181021_63e823826f8g6f835id96lchdd73j_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1ma7c76.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371755_472421512_12_0-t_-c1_10057922_nil_nil_1_472421512_39_0-lc_28",
+		"type": 2,
+		"title": "毛呢短裤 阔腿 高腰 黑色 宽松 休闲 加厚 秋冬季 韩版 新款",
+		"orgPrice": "￥60.00",
+		"cparam": "MTU0MDk3NTc5OV8xZjI4ZThlXzJlMzI1OTBjNDNkMjBhNDA4YzkzOTU0NWYxOGNhY2QyXzI4XzExXzQ1NTM3MTc1NV8wXzBfMTJfMF80XzBfMA==",
+		"props": ["毛呢短裤", "阔腿", "高腰", "黑色", "宽松", "休闲", "加厚", "秋冬季", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "3",
+		"price": "￥42.00",
+		"cfav": "1",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "时尚套装;包臀半身裙;针织;开叉;高腰;甜美;宽松;小清新;秋季;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapoeq?acm=3.ms.0_4_1mapoeq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapoeq",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_2a2618dfe8jcb84c4ij6cb3581f96_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapoeq?acm=3.ms.0_4_1mapoeq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_2a2618dfe8jcb84c4ij6cb3581f96_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapoeq.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "时尚套装 包臀半身裙 针织 开叉 高腰 甜美 宽松 小清新 秋季 新款",
+		"orgPrice": "￥170.00",
+		"props": ["时尚套装", "包臀半身裙", "针织", "开叉", "高腰", "甜美", "宽松", "小清新", "秋季", "新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥119.00",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302424489
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "休闲裤;直筒裤;高腰;显瘦;宽松;百搭;鹿皮绒;秋季;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapoam?acm=3.ms.0_4_1mapoam.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapoam",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_5384jgafk3ff6fl5e69iha18db989_800x1200.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapoam?acm=3.ms.0_4_1mapoam.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181031_5384jgafk3ff6fl5e69iha18db989_800x1200.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapoam.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "休闲裤 直筒裤 高腰 显瘦 宽松 百搭 鹿皮绒 秋季 韩版 新款",
+		"orgPrice": "￥92.86",
+		"props": ["休闲裤", "直筒裤", "高腰", "显瘦", "宽松", "百搭", "鹿皮绒", "秋季", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥65.00",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 102497
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "休闲女裤;金丝绒;宽松;加厚;修身;冬季;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma7bos?acm=3.ms.2_1_1ma7bos.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371757_472418659_13_0-t_-c1_10057922_nil_nil_1_472418659_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThpX2JmZTQzMGFmZWRmOGYxYzlhMjY5MDVlMjg2YWVlYTRkXzI4XzEyXzQ1NTM3MTc1N18wXzBfMTNfMF80XzBfMA==",
+		"iid": "1ma7bos",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181021_4444iba6df8l1d85j1e8c46lg96fl_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma7bos?acm=3.ms.2_1_1ma7bos.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371757_472418659_13_0-t_-c1_10057922_nil_nil_1_472418659_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThpX2JmZTQzMGFmZWRmOGYxYzlhMjY5MDVlMjg2YWVlYTRkXzI4XzEyXzQ1NTM3MTc1N18wXzBfMTNfMF80XzBfMA==",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181021_4444iba6df8l1d85j1e8c46lg96fl_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.2_1_1ma7bos.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371757_472418659_13_0-t_-c1_10057922_nil_nil_1_472418659_39_0-lc_28",
+		"type": 2,
+		"title": "休闲女裤 金丝绒 宽松 加厚 修身 冬季 新款",
+		"orgPrice": "￥71.42",
+		"cparam": "MTU0MDk3NTc5OV8xZjI4ZThpX2JmZTQzMGFmZWRmOGYxYzlhMjY5MDVlMjg2YWVlYTRkXzI4XzEyXzQ1NTM3MTc1N18wXzBfMTNfMF80XzBfMA==",
+		"props": ["休闲女裤", "金丝绒", "宽松", "加厚", "修身", "冬季", "新款"],
+		"lefttop_taglist": [],
+		"sale": "0",
+		"price": "￥49.99",
+		"cfav": "1",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "抽绳小脚裤;宽松;加厚;秋冬;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma7adk?acm=3.ms.2_1_1ma7adk.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371759_472412708_14_0-t_-c1_10057922_nil_nil_1_472412708_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThtX2Q0YTI1ZGQ3MmZkMTU1ZWUxOWMzMzA1YzQyNDBlODhiXzI4XzEzXzQ1NTM3MTc1OV8wXzBfMTRfMF80XzBfMA==",
+		"iid": "1ma7adk",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181021_2l1h32cf2ak755b96ad017fhdjb8g_800x1200.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma7adk?acm=3.ms.2_1_1ma7adk.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371759_472412708_14_0-t_-c1_10057922_nil_nil_1_472412708_39_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjI4ZThtX2Q0YTI1ZGQ3MmZkMTU1ZWUxOWMzMzA1YzQyNDBlODhiXzI4XzEzXzQ1NTM3MTc1OV8wXzBfMTRfMF80XzBfMA==",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/c45406/181021_2l1h32cf2ak755b96ad017fhdjb8g_800x1200.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1ma7adk.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_455371759_472412708_14_0-t_-c1_10057922_nil_nil_1_472412708_39_0-lc_28",
+		"type": 2,
+		"title": "抽绳小脚裤 宽松 加厚 秋冬 新款",
+		"orgPrice": "￥71.42",
+		"cparam": "MTU0MDk3NTc5OV8xZjI4ZThtX2Q0YTI1ZGQ3MmZkMTU1ZWUxOWMzMzA1YzQyNDBlODhiXzI4XzEzXzQ1NTM3MTc1OV8wXzBfMTRfMF80XzBfMA==",
+		"props": ["抽绳小脚裤", "宽松", "加厚", "秋冬", "新款"],
+		"lefttop_taglist": [],
+		"sale": "1",
+		"price": "￥49.99",
+		"cfav": "4",
+		"leftbottom_taglist": [],
+		"shopId": "20448467"
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "宽松连衣裙;中长款休闲;百搭;时尚;连帽;新款;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapo3s?acm=3.ms.0_4_1mapo3s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapo3s",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_7181bk62a96b76cgflj29ah740eki_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapo3s?acm=3.ms.0_4_1mapo3s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181031_7181bk62a96b76cgflj29ah740eki_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapo3s.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "宽松连衣裙 中长款休闲 百搭 时尚 连帽 新款 韩版",
+		"orgPrice": "￥107.15",
+		"props": ["宽松连衣裙", "中长款休闲", "百搭", "时尚", "连帽", "新款", "韩版"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥75.00",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 21617933
+	}, {
+		"itemType": 5,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "连衣裙;打底裙;甜美;小清新;中长款;长袖;宽松显瘦;两穿;系带;百搭;秋冬新款;韩版",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1mapnzc?acm=3.ms.0_4_1mapnzc.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"iid": "1mapnzc",
+		"showLarge": {
+			"img": "http://s3.mogucdn.com/mlcdn/55cf19/181031_1ee6b07l23khfc3fkfl0fjh2g79ah_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1mapnzc?acm=3.ms.0_4_1mapnzc.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"show": {
+			"img": "http://s3.mogucdn.com/mlcdn/55cf19/181031_1ee6b07l23khfc3fkfl0fjh2g79ah_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "-1",
+		"acm": "3.ms.0_4_1mapnzc.0.13386-26167-69004.s026ur82JpzkT.t_-sd_117-lc_1",
+		"type": 2,
+		"title": "连衣裙 打底裙 甜美 小清新 中长款 长袖 宽松显瘦 两穿 系带 百搭 秋冬新款 韩版",
+		"orgPrice": "￥194.29",
+		"props": ["连衣裙", "打底裙", "甜美", "小清新", "中长款", "长袖", "宽松显瘦", "两穿", "系带", "百搭", "秋冬新款", "韩版"],
+		"lefttop_taglist": [],
+		"sale": 0,
+		"price": "￥194.29",
+		"cfav": 0,
+		"leftbottom_taglist": [],
+		"shopId": 1302409870
+	}, {
+		"itemType": 7,
+		"ptpC": "_mb_mls_10057922_app-category_noab-noab",
+		"titleTags": "九分哈伦裤;高腰;宽松;秋冬季;加绒;韩版;新款",
+		"clientUrl": "http://item.meilishuo.com/h5/detail/1ma4wxm?acm=3.ms.2_1_1ma4wxm.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457776315_1318908213_15_0-t_-c1_10057922_nil_nil_2_1318908213_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjUzZ3oyXzZlZmI1MWIzYTM3ZTIwYTI5ZWNlMjNmODdiYzgxYmQ2XzI4XzE0XzQ1Nzc3NjMxNV8wXzBfMTVfMF83NDlfMF8w",
+		"iid": "1ma4wxm",
+		"showLarge": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181020_1d43jg0627h09jj51lbb8lcc3gl7b_640x960.jpg_560x999.jpg",
+			"w": 560,
+			"h": 840
+		},
+		"link": "http://item.meilishuo.com/h5/detail/1ma4wxm?acm=3.ms.2_1_1ma4wxm.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457776315_1318908213_15_0-t_-c1_10057922_nil_nil_2_1318908213_30_0-lc_28&cparam=MTU0MDk3NTc5OV8xZjUzZ3oyXzZlZmI1MWIzYTM3ZTIwYTI5ZWNlMjNmODdiYzgxYmQ2XzI4XzE0XzQ1Nzc3NjMxNV8wXzBfMTVfMF83NDlfMF8w",
+		"show": {
+			"img": "http://s11.mogucdn.com/mlcdn/c45406/181020_1d43jg0627h09jj51lbb8lcc3gl7b_640x960.jpg_320x999.jpg",
+			"w": 320,
+			"h": 416
+		},
+		"itemMarks": "166 16",
+		"acm": "3.ms.2_1_1ma4wxm.0.70871-26167-69004.s026ur82JpzkT.sd_117-c_2_28_457776315_1318908213_15_0-t_-c1_10057922_nil_nil_2_1318908213_30_0-lc_28",
+		"type": 2,
+		"title": "九分哈伦裤 高腰 宽松 秋冬季 加绒 韩版 新款",
+		"orgPrice": "￥92.86",
+		"cparam": "MTU0MDk3NTc5OV8xZjUzZ3oyXzZlZmI1MWIzYTM3ZTIwYTI5ZWNlMjNmODdiYzgxYmQ2XzI4XzE0XzQ1Nzc3NjMxNV8wXzBfMTVfMF83NDlfMF8w",
+		"props": ["九分哈伦裤", "高腰", "宽松", "秋冬季", "加绒", "韩版", "新款"],
+		"lefttop_taglist": [],
+		"sale": "16",
+		"price": "￥92.86",
+		"cfav": "11",
+		"leftbottom_taglist": [],
+		"shopId": "1302408052"
+	}]
+}

@@ -1,0 +1,163 @@
+<div class="page-group" id="shop">
+    <link rel="stylesheet" href="./css/shop.css">
+    <div class="page">
+
+        <!-- 标题 -->
+        <header class="bar bar-nav">
+            <h1 class="title">购物车</h1>
+        </header>
+
+        <nav class="bar bar-tab nav-bottom">
+            <a class="tab-item " href="./index.html">
+                <span class="icon icon_home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item" href="./class.html">
+                <span class="icon icon_class"></span>
+                <span class="tab-label">分类</span>
+            </a>
+            <a class="tab-item  active" href="#">
+                <span class="icon icon_shop"></span>
+                <span class="tab-label">购物车</span>
+            </a>
+            <a class="tab-item">
+                <span class="icon icon_mine"></span>
+                <span class="tab-label">我的</span>
+            </a>
+        </nav>
+        <div class="content infinite-scroll-bottom infinite-scroll" data-distance="100">
+            <!-- 购物车表体 -->
+            <div class="shop-head">
+                温馨提示：现在登录，您可以同步电脑和手机购物车中的商品。
+                <div class="login-button">
+                    登录
+                </div>
+            </div>
+
+            <div class="shop-middle">
+                <div class="middle-content">
+                    <img src="./tabBarImg/cartImg.21c4cf0.png" alt="">
+                    <p>购物车空空如也</p>
+                    <div>随便逛逛</div>
+                </div>
+            </div>
+
+            <div class="shop-like">
+                <div class="like-head">
+                    <img src="https://s17.mogucdn.com/mlcdn/c45406/180110_7bjagf7dg86l09d6ejdijg6723301_1125x120.jpg"
+                        alt="">
+                </div>
+
+                <div class="like-content">
+
+                </div>
+                <!-- 加载提示符 -->
+                <div class="infinite-scroll-preloader">
+                    <div class="preloader"></div>
+                </div>
+            </div>
+            <script>
+                $(document).on('pageInit', function () {
+                    // 加载flag
+                    var loading = false;
+                    // 最多可加载的条目
+                    var maxItems = 30;
+                    // 每次加载添加多少条目
+                    var itemsPerLoad = 10;
+                    function addItems(number, lastIndex) {
+                        // 生成新条目的HTML
+                        $.ajax({
+                            url: './data/item.json',
+                            success: function (data) {
+                                var arr = data.data.rows
+                                var str = ''
+                                for (var i = lastIndex + 1; i <= lastIndex + number; i++) {
+                                    $(arr[i]).each(function (index, item) {
+                                        str += `
+                                                <a href="${item.h5GoodUrl}">
+                                                    <div><img src="${item.image}" class="bigimg"></div>
+                                                    <p class="like-msg">
+                                                    `
+                                        $(arr[i].props).each(function (index, item) {
+                                            str += `<span>${item}</span>`
+                                        })
+                                        str +=
+                                            `</p>
+                                                    <p class="like-bottom">
+                                                        <span class="like-price">￥${item.price}</span>
+                                                        <span class="like-star">${item.collectNum}<img src="./tabBarImg/星星.png"></span>
+                                                    </p>
+                                                </a>
+                                            `
+                                    })
+                                }
+                                // 添加新条目
+                                $('.like-content').append(str)
+
+
+                            }
+                        })
+                    }
+                    //预先加载20条
+                    addItems(itemsPerLoad, 0);
+                    // 上次加载的序号
+                    var lastIndex = 10;
+                    // 注册'infinite'事件处理函数
+                    $(document).on('infinite', '.infinite-scroll-bottom', function () {
+                        // 如果正在加载，则退出
+                        if (loading) return;
+                        // 设置flag
+                        loading = true;
+                        // 模拟1s的加载过程
+                        setTimeout(function () {
+                            // 重置加载flag
+                            loading = false;
+                            if (lastIndex >= maxItems) {
+                                // 加载完毕，则注销无限加载事件，以防不必要的加载
+                                $.detachInfiniteScroll($('.infinite-scroll-bottom'));
+                                // 删除加载提示符
+                                $(' .infinite-scroll-preloader').remove();
+                                return;
+                            }
+                            // 添加新条目
+                            addItems(itemsPerLoad, lastIndex);
+                            // 更新最后加载的序号
+                            lastIndex = $('.like-content a').length + 10;
+                            //容器发生改变,如果是js滚动，需要刷新滚动
+                            $.refreshScroller();
+                        }, 1000);
+                    });
+                })
+
+            </script>
+
+        </div>
+
+        <div class="goTop">Top</div>
+        <script>
+            $(function () {
+                $('.content').on('scroll', function () {
+                    if ($(this).scrollTop() > 450) {
+                        $('.goTop').show()
+                    } else {
+                        $('.goTop').hide()
+                    }
+                })
+                $('.goTop').on('click', function () {
+                    $('.content').scrollTop(0)
+                })
+
+                $('.login-button').click(function () {
+                    console.log('111')
+                    $.popup('.popup-about');
+                })
+                $('.icon_mine').click(function () {
+                    $.popup('.popup-about');
+                })
+            })
+
+
+        </script>
+    </div>
+
+</div>

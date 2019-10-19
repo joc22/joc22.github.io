@@ -1,0 +1,160 @@
+
+html{
+    font-size: 16px;
+}
+
+.nav-bottom .active span{
+    color: #ea0d51;
+}
+
+.icon_home{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/home1.png')
+}
+
+.icon_class{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/class1.png')
+}
+
+.icon_shop{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/car2.png')
+}
+
+.icon_mine{
+    width: 1.5rem;
+    background-image: url('../tabBarImg/my1.png')
+}
+.tab-item:active{
+    color: #ea0d51;
+}
+
+
+/* 购物车标题 */
+
+.title{
+    font-size: 1.125rem;
+    background-color: white;
+
+}
+.shop-head{
+    font-size: 0.6875rem;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 5px;
+}
+.login-button{
+    background-color: #fe70a0;
+    color: white;
+    width: 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+.bar-nav~.content{
+    background-color: rgb(251, 249, 254)
+}
+
+
+/* ---------------------------------购物车中间 -0-------------------*/
+.shop-middle{
+    width: 100vw;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content{
+    text-align: center;
+    font-size: 0.5rem;
+    color: #a7a7a8
+}
+.middle-content img{
+    width: 6.25rem;
+}
+.middle-content div{
+    color: #fe70a0;
+    border:1px solid #fe70a0;
+    border-radius: 10px;
+    padding: 2px 0;
+}
+
+/* --------------------------------购物车拼接------------------------- */
+.like-head img{
+    width: 100vw;
+}
+
+
+
+.like-content {
+    width: 100vw;
+}
+.like-content a{
+    float: left;
+    width: 45vw;
+    height: 19.375rem;
+    font-size: 0.625rem;
+    background-color: white;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: 0.75rem;
+}
+.like-content .bigimg{
+    width: 100%;
+    height: 15.625rem;
+}
+.like-content .like-msg span{ 
+    background-color: #f2f5f7;
+    margin-right:5px;
+    color:#818b9e;
+}
+.like-content p{
+    margin: 0;
+}
+.like-content .like-bottom{
+    width: 45vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.like-content .like-price{
+    color: black;
+    left: 0;
+}
+.like-content .like-star{
+    color:#818b9e;
+    display: flex;
+    align-items: center;
+}
+.like-content .like-star img {
+    width: 20px
+}
+
+
+/* ------------------------------回到顶部------------------- */
+
+.goTop{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    border-radius: 50%;
+    background-color: #fe70a0;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    opacity: .6;
+}

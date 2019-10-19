@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>美丽说</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+
+    <script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+
+</head>
+
+<body>
+    <div class="page-group" id="class">
+        <link rel="stylesheet" href="./css/class.css">
+        <div class="page">
+            <!-- 顶部搜索框 -->
+            <header class="bar bar-nav header home-header">
+                <div>
+                    <span class="icon icon-search" for="search"></span>
+                    <div class="Search">
+                        <input type="text" placeholder="搜索" class="searchs open-panel" data-panel='#panel-js-demo'>
+                    </div>
+                    <span class="icon icon-code open-panel " data-panel='#panel-code'></span>
+                </div>
+                <a href="#"><span class="icon icon-message"></span></a>
+            </header>
+            <script>
+                $(function () {
+                    $(document).on("click", ".searchs", function () {
+                        $.openPanel("#panel-js-demo");
+                    });
+
+                })
+            </script>
+            <nav class="bar bar-tab nav-bottom">
+                <a class="tab-item " href="./index.html">
+                    <span class="icon icon_home"></span>
+                    <span class="tab-label">首页</span>
+                </a>
+                <a class="tab-item active" href="#">
+                    <span class="icon icon_class"></span>
+                    <span class="tab-label">分类</span>
+                </a>
+                <a class="tab-item " href="./shop.html">
+                    <span class="icon icon_shop"></span>
+                    <span class="tab-label">购物车</span>
+                </a>
+                <a class="tab-item" href="./mine.html">
+                    <span class="icon icon_mine"></span>
+                    <span class="tab-label">我的</span>
+                </a>
+            </nav>
+            <div class="content infinite-scroll-bottom  infinite-scroll" data-distance="100">
+                <!-- 十六中分类 -->
+                <div class="class-sort">
+                    <ul>
+                    </ul>
+                </div>
+                <script>
+                    $(function () {
+                        $.ajax({
+                            url: './data/classify.json',
+                            success: function (data) {
+                                var arr = data.model
+                                // console.log(arr)
+                                var str = ''
+                                $(arr).each(function (index, item) {
+                                    str += `
+                                            <li>
+                                                <img src="${item.image}">    
+                                                <p>${item.title}</p>
+                                            </li>
+                                        `
+                                })
+                                $('.class-sort').html(str)
+                            }
+                        })
+                    })
+                </script>
+
+                <!-- 三个标签页 -->
+                <div class="buttons-tab fixed-tab" data-offset="40">
+                    <a href="#tab1" class="tab-link active button">流行</a>
+                    <a href="#tab2" class="tab-link button">热销</a>
+                    <a href="#tab3" class="tab-link button">上新</a>
+                </div>
+
+                <div class="tabs">
+                    <div id="tab1" class="tab active">
+                        <div class="content-block cot1">
+
+                        </div>
+                        <!-- 加载提示符 -->
+                        <div class="infinite-scroll-preloader">
+                            <div class="preloader"></div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <div class="content-block cot2">
+
+                        </div>
+                        <!-- 加载提示符 -->
+                        <div class="infinite-scroll-preloader">
+                            <div class="preloader"></div>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <div class="content-block cot3">
+
+                        </div>
+                        <!-- 加载提示符 -->
+                        <div class="infinite-scroll-preloader">
+                            <div class="preloader"></div>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+
+            <!-- 搜索框侧边框 -->
+            <div class="panel panel-right panel-cover" id='panel-js-demo'>
+                <header class="bar bar-nav header header-right">
+                    <div>
+                        <span class="icon icon-search" for="search"></span>
+                        <input type="text" placeholder="搜索" class="search open-panel" data-panel='#panel-right'>
+                        <span class="icon icon-code open-panel " data-panel='#panel-code'></span>
+                    </div>
+                    <a href="#"><span class="cancel close-panel">取消</span></a>
+                </header>
+                <div class="content-block hot-clock" style="margin: 0">
+                    <div class="right-hot">
+                        <p><img src="./tabBarImg/hot.png" alt="">热门搜索</p>
+                        <ul>
+                            <li>卫衣</li>
+                            <li>外衣</li>
+                            <li>毛衣</li>
+                            <li>睡衣</li>
+                            <li>风衣</li>
+                            <li>衬衫</li>
+                            <li>马甲</li>
+                            <li>口红</li>
+                            <li>牛仔裤</li>
+                            <li>鞋子</li>
+                        </ul>
+                    </div>
+                    <div class="right-clock">
+                        <p><img src="./tabBarImg/记录.png" alt="">清除记录<span style="text-align: right">清除搜索记录</span></p>
+                        <ul>
+                            <li>
+                                鞋子
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 二维码侧边框 -->
+            <div class="panel panel-right panel-cover" id='panel-code'>
+                <div class="bar bar-nav code-header">
+                    <p>
+                        <img src="./tabBarImg/返回.png" alt="" class="fanhui">
+                        <span>二维码</span>
+                        <span class="code-right">相册</span>
+                    </p>
+                </div>
+                <div class="code-content">
+
+                </div>
+            </div>
+            <script>
+                $(function () {
+                    $(document).on("click", ".fanhui", function () {
+                        $.closePanel('#panel-code')
+                    });
+                })
+            </script>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    $.init()
+</script>
+
+</html>

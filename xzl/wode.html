@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的</title>
+</head>
+
+<style>
+    html,
+    body {
+
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    header {
+        width: 100vw;
+        height: 70px;
+        margin-bottom: 1px;
+        background-color: white;
+        box-shadow: 6px 6px 6px rgba(83, 83, 83, 0.1);
+
+        position: relative;
+    }
+
+    /* -------------------顶部首页-------------------- */
+
+    header div {
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        top: 25px;
+        left: 45vw;
+        /* background-color: red; */
+        color: rgb(194, 35, 35);
+        font-size: 20px;
+
+
+    }
+
+    /* ------------------主体部分------------------ */
+
+
+    main>.name {
+        width: 100vw;
+        height: 25vh;
+        margin-top: 10px;
+        background-color: white;
+        box-shadow: 3px 3px 5px rgb(165, 159, 159);
+
+    }
+
+    .name img {
+        width: 18vw;
+        height: 10vh;
+        margin-bottom: 15px;
+        border-radius: 50%;
+    }
+
+    .name>div {
+        width: 30vw;
+        height: 20vh;
+        margin-left: 35vw;
+        /* background-color: tomato; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    main .id>div {
+        width: 95vw;
+        height: 8vh;
+        margin: 0 auto;
+        background-color: white;
+
+        box-shadow: 3px 3px 5px grey;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .id>div img {
+        width: 4vw;
+        height: 3vh;
+        margin-left: 8px;
+        margin-right: 8px;
+
+    }
+
+    .id>div>div {
+        display: flex;
+    }
+
+    .id>div:nth-of-type(1) {
+        margin-top: 10px;
+    }
+
+    .id>div:nth-of-type(5) {
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+    /* ------------------底部导航 --------------------*/
+
+    footer {
+        width: 100vw;
+        height: 60px;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        border-top: 2px solid whitesmoke;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    footer img {
+        width: 20px;
+        height: 20px;
+
+    }
+
+
+    footer a {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: grey;
+
+    }
+
+    a p {
+        margin: 5px;
+    }
+
+
+    /*----------------- 鼠标点击------------ */
+    footer a:hover img {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    /* ----------------------电话------------ */
+
+    main a img {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 100px;
+        left: 310px;
+        position: fixed;
+
+
+    }
+</style>
+
+
+<body>
+    <!-- 顶部首页 -->
+    <header>
+        <div>我的</div>
+    </header>
+
+    <!-- 主体部分 -->
+
+    <main>
+
+        <div class="name">
+            <div>
+                <img src="./头像/5.jpg" alt="">
+
+                <p>李青</p>
+            </div>
+
+        </div>
+
+
+        <div class="id">
+            <div>
+                <div>
+                    <img src="./鑫子龙切图/ios/porfile_icon_gerenzhongxin_nor.png@3x.png" alt="">
+                    <span>个人信息</span>
+                </div>
+                <img src="./鑫子龙切图/ios/list_btn_link_nor.png@3x.png" alt="">
+            </div>
+            <div>
+                <div>
+                    <img src="./鑫子龙切图/ios/porlife_icon_wodeliuyan_nor.png@3x.png" alt="">
+                    <span>我的留言</span>
+                </div>
+                <img src="./鑫子龙切图/ios/list_btn_link_nor.png@3x.png" alt="">
+            </div>
+            <div>
+                <div>
+                    <img src="./鑫子龙切图/ios/porlife_icon_wodeshoucang_nor.png@3x.png" alt="">
+                    <span>我的收藏</span>
+                </div>
+                <img src="./鑫子龙切图/ios/list_btn_link_nor.png@3x.png" alt="">
+            </div>
+            <div>
+                <div>
+                    <img src="./鑫子龙切图/ios/porlife_icon_wodexiaoxi_nor.png@3x.png" alt="">
+                    <span>我的消息</span>
+                </div>
+                <img src="./鑫子龙切图/ios/list_btn_link_nor.png@3x.png" alt="">
+            </div>
+            <div>
+                <div>
+                    <img src="./鑫子龙切图/ios/porlife_icon_set_nor.png@3x.png" alt="">
+                    <span>设置</span>
+                </div>
+                <img src="./鑫子龙切图/ios/list_btn_link_nor.png@3x.png" alt="">
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <a href="#" title="联系方式：888888">
+            <img src="./鑫子龙切图/ios/icon_btn_dianhua_nor.png@3x.png" alt="">
+        </a>
+
+    </main>
+
+    <!-- 底部导航 -->
+
+    <footer>
+
+        <a href="home.html">
+            <img src="./鑫子龙切图/ios/home.jpg" onmouseover="this.src='./鑫子龙切图/ios/icon_nav_zhuye_pink_@3x.png'"
+                onmouseout="this.src='./鑫子龙切图/ios/home.jpg'" alt="">
+            <p>首页</p>
+        </a>
+        <a href="tuku.html">
+            <img src="./鑫子龙切图/ios/icon_nav_tuku_gray_nor.png@3x.png"
+                onmouseover="this.src='./鑫子龙切图/ios/tab_icon_tuku_pink_sel.png@3x.png'"
+                onmouseout="this.src='./鑫子龙切图/ios/icon_nav_tuku_gray_nor.png@3x.png'" alt="">
+            <p>图库</p>
+        </a>
+        <a href="kecheng.html">
+            <img src="./鑫子龙切图/ios/icon_nav_kecheng_gray_nor.png@3x.png"
+                onmouseover="this.src='./鑫子龙切图/ios/icon_nav_kecheng_pink_sel.png@3x.png'"
+                onmouseout="this.src='./鑫子龙切图/ios/icon_nav_kecheng_gray_nor.png@3x.png'" alt="">
+            <p>课程</p>
+        </a>
+        <a href="wode.html">
+            <img src="./鑫子龙切图/ios/icon_nav_wode_gary_nor.png@3x.png" alt="">
+            <p>我的</p>
+        </a>
+
+    </footer>
+</body>
+
+</html>
