@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旅行社</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* -------------------------------- 导航栏 --------------------------------- */
+        nav {
+            width: 100%;
+            background-color: rgb(51, 51, 51);
+        }
+
+        nav>div {
+            width: 960px;
+            height: 70px;
+            /* border: 1px solid red; */
+            margin: 0 auto;
+        }
+
+        nav>div ul {
+            float: right;
+        }
+
+        nav>div ul li {
+            width: 100px;
+            height: 70px;
+            list-style: none;
+            float: left;
+            color: white;
+            text-align: center;
+            line-height: 70px;
+        }
+
+        nav>div ul li:hover {
+            background-color: black;
+        }
+
+        .active {
+            background-color: black;
+        }
+
+        /* ---------------------------------- banner 图片 -------------------------------- */
+        header {
+            width: 100%;
+            position: relative;
+        }
+
+        header img {
+            width: 100%;
+        }
+
+        .inp {
+            position: absolute;
+            left: calc(50% - 185px);
+            top: calc(50% - 25px);
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: black;
+        }
+
+        .inp input {
+            width: 270px;
+            height: 50px;
+            float: left;
+            /* 清除边框 */
+            /* border: none; */
+            border: 0;
+            border-radius: 5px;
+            margin-right: 2px;
+            /* 鼠标点击后 默认有个蓝色的轮廓线 */
+            outline: 0;
+            outline: none;
+        }
+
+        /* input::placeholder  伪类选择器 */
+        .inp input::placeholder {
+            font-size: 20px;
+        }
+
+        .inp button {
+            width: 100px;
+            height: 50px;
+            border: 0;
+            border-radius: 5px;
+            background-color: white;
+            font-size: 20px;
+            outline: none;
+        }
+
+
+        /* -------------------------------- 热门旅游 ------------------------------- */
+        body>h1,
+        body>h5 {
+            text-align: center;
+            color: gray;
+            margin: 5px 0;
+        }
+
+
+        /* ----------------------------------- 旅游信息 -------------------------------- */
+        main {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        main>ul {
+            width: 100%;
+            /* border: 1px solid red; */
+        }
+
+        main>ul li {
+            width: 31%;
+            height: 250px;
+            border: 1px solid #dbdbdb;
+            list-style: none;
+            /* 设置浮动后 浮动元素会脱离文档流  */
+            float: left;
+            margin: 0 22px 20px 0;
+            padding: 3px;
+        }
+
+        /* ----------------------------  卡片上方内容 ---------------------------------- */
+        .card_top {
+            width: 100%;
+            position: relative;
+        }
+
+        .card_top img {
+            width: 100%;
+        }
+
+        .card_top .top_title {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 80px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            color: white;
+            background-color: rgb(89, 178, 0);
+        }
+
+        /* ------------------------ 卡片中间内容 ----------------------- */
+        .card_middle span {
+            font-size: 10px;
+        }
+
+        .card_middle span:nth-of-type(2) {
+            color: gray;
+        }
+
+        /* -------------------------- 卡片底部的内容 --------------------------- */
+
+        .bt_left {
+            color: rgb(255, 102, 39);
+            float: left;
+        }
+
+        .bt_left span:nth-of-type(1) {
+            font-size: 12px;
+        }
+
+        .bt_left span:nth-of-type(3) {
+            font-size: 14px;
+        }
+
+        .bt_right {
+            float: right;
+            font-size: 14px;
+            color: gray;
+        }
+
+
+        /* ----------------------  底部内容 ---------------------------- */
+
+        footer {
+            width: 100%;
+            /* 清除上方的浮动 */
+            clear: both;
+        }
+
+        .ft_top {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(34, 34, 34);
+        }
+
+        .ft_top>div {
+            width: 960px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .ft_top>div>dl {
+            float: left;
+            width: 31%;
+            margin-right: 22px;
+        }
+
+        .ft_top>div>dl>dt {
+            color: white;
+            line-height: 40px;
+            font-size: 20px;
+            border-bottom: 1px dotted #777777;
+        }
+
+        .ft_top >div >dl dd{
+            color: #777777;
+            line-height: 35px;
+        }
+        .ft_bottom {
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div>
+            <img src="./img/logo.png" alt="">
+            <ul>
+                <li class="active">首页</li>
+                <li>旅游咨询</li>
+                <li>机票订购</li>
+                <li>风景欣赏</li>
+                <li>公司简介</li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- banner 图片 -->
+    <header>
+        <img src="./img/search.jpg" alt="">
+        <div class="inp">
+            <input type="text" placeholder="请输入旅游景点或城市">
+            <button>搜索</button>
+        </div>
+    </header>
+
+    <h1>热门旅游</h1>
+    <h5>国内旅游、国外旅游、自助旅游、自驾旅游、邮轮签证、主题旅游等各种景点</h5>
+
+
+    <!-- 旅游信息 -->
+    <main>
+        <ul>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card_top">
+                    <img src="./img/tour1.jpg" alt="">
+                    <div class="top_title">国内长线</div>
+                </div>
+                <div class='card_middle'>
+                    <span>&lt;曼谷-芭提雅6日游&gt;</span>
+                    <span>包团特惠，超丰富景点，升级1晚国五，无自费，更送600元/成人自费券</span>
+                </div>
+                <div class="card_bottom">
+                    <div class="bt_left">
+                        <span>￥</span>
+                        <span>2864</span>
+                        <span>起</span>
+                    </div>
+                    <div class="bt_right">满意度 77%</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+
+    <footer>
+        <div class="ft_top">
+            <div>
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>途牛旅行网</dd>
+                    <dd>驴妈妈旅行网</dd>
+                    <dd>携程旅游</dd>
+                    <dd>中国青年旅社</dd>
+                </dl>
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>途牛旅行网</dd>
+                    <dd>驴妈妈旅行网</dd>
+                    <dd>携程旅游</dd>
+                    <dd>中国青年旅社</dd>
+                </dl>
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>途牛旅行网</dd>
+                    <dd>驴妈妈旅行网</dd>
+                    <dd>携程旅游</dd>
+                    <dd>中国青年旅社</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="ft_bottom">
+            Copyright&copy; YCKU 飘城旅行社
+        </div>
+    </footer>
+
+</body>
+
+</html>
