@@ -1,4 +1,4 @@
-const express = require("express");
+﻿const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 const exphbs = require("express-handlebars");
@@ -12,6 +12,8 @@ const passport = require("passport");
 require('./config/passport')(passport)
 
 const app = express();
+
+app.use(express.static('views\layouts'))
 
 app.use("/public", express.static("public")); //将文件设置成静态
 // app.use("/public",express.static(path.join(__dirname, "public")));
