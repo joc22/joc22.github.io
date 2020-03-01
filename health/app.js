@@ -15,9 +15,16 @@ const app = express();
 
 app.use("/public", express.static("public")); //将文件设置成静态
 // app.use("/public",express.static(path.join(__dirname, "public")));
+
+
 //handlebars middleware
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
+const handlebars = require('express-handlebars')
+.create({defaultLayout: "index",extname : 'html' })
+ //设置模板引擎文件默认后缀为.hbs
+app.engine("html", handlebars.engine); //将Express的模板引擎设置为handlebars
+app.set('view engine', 'html');
+
+
 
 // mongoose
 const db = require("./config/database").mongodbURL;
@@ -53,11 +60,11 @@ app.use((req, res, next) => {
 
 //配置路由
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("home");
 });
 
-app.get("/index", (req, res) => {
-  res.render("index");
+app.get("/home", (req, res) => {
+  res.render("home");
 });
 
 // load routes();
