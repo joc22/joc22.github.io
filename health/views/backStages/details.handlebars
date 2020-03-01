@@ -1,0 +1,33 @@
+<!-- 导航条 -->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/backStages">健康后台管理系统</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/backStages">用户管理</a>
+                </li>
+                <li class="active">
+                    <a href="/backStages/baikes">百科管理</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="detail">
+    <div class="title">{{baikes3.title}}</div>
+    <div class="desc">
+        <span>类型：{{baikes3.kind}}</span>
+        <span>发布时间：{{baikes3.time}}</span>
+    </div>
+    <div class="content">{{{baikes3.details}}}</div>
+</div>

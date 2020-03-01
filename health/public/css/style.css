@@ -1,0 +1,225 @@
+/* navbar */
+.icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 7px;
+  
+}
+
+.icon img {
+  
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.huanying {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.huanying p:first-of-type {
+  color: grey;
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+/* index */
+.xzfw {
+  width: 80%;
+  height: 100%;
+}
+
+/* foot */
+
+footer {
+  width: 100%;
+  /* 清除上方的浮动 */
+  clear: both;
+}
+
+footer > div {
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+}
+
+footer > div > div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer > div > div > dl {
+  float: left;
+  margin-right: 22px;
+}
+
+footer > div > div > dl > dt {
+  width: 200px;
+  color: white;
+  line-height: 40px;
+  font-size: 20px;
+  border-bottom: 2px solid #777777;
+}
+
+footer > div > div > dl dd {
+  color: #777777;
+  line-height: 35px;
+  font-size: 10px;
+}
+
+.ft_bottom {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(34, 34, 34);
+}
+
+/* 注册登录 */
+.card {
+  margin-top: 30px;
+  margin-bottom: 110px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+#login_register_bc {
+  background-image: url("../images/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card label {
+  font-size: 20px;
+  position: relative;
+  left: -20px;
+}
+
+.card input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  position: relative;
+  left: -20px;
+  text-indent: 5px;
+}
+
+.logo {
+  width: 100px;
+}
+
+#login_register_msg {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#login_register_btn {
+  width: 180px;
+  position: relative;
+  left: 5px;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+.register_first {
+  position: relative;
+  left: -9px;
+}
+.register_last {
+  position: relative;
+  left: -20px;
+}
+
+/* 后台 */
+.back_form {
+  margin-top: 30px;
+}
+
+
+.control-label {
+  text-align: center;
+  padding-top: 5px !important;
+  padding-right: 0 !important;
+}
+
+
+/* 百科add */
+
+.baike_add {
+ margin-bottom: 200px;
+ border: 1px solid gainsboro;
+}
+
+.baike_add h1{
+ text-align: center;
+ margin: 20px 0;
+}
+
+.add_submit{
+ margin-bottom: 20px;
+}
+
+/* 分页 */
+.pages{
+  padding-right: 15px;
+  height: 100px;
+}
+.fenye{
+  text-align: center;
+  display:inline-block;
+  width: 18px;
+  border: 1px solid gray;
+  text-decoration: none  !important ;
+}
+
+.fenye:hover{
+ background-color: rgb(177, 172, 172);
+}
+
+/* 百科详情 */
+
+.detail {
+  
+  width: 80%;
+  margin: 35px auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px #d9d9d9 solid;
+  padding-bottom: 50px;
+}
+.detail .title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.detail .desc {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  line-height: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.detail .desc span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* 错误和成功信息 */
+.msg_s_e{
+  margin: 0;
+}
+
+/* 报错信息 */
+.alert{
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+<div class="row" id="login_register_bc">
+    <div class="col-md-6 col-md-offset-3">
+        {{#each errors}}
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+            <strong>{{text}}</strong>
+        </div>
+        {{/each}}
+        <div class="card">
+            <img class="logo text-center" src="../../public/images/logo.png">
+            <h3 class="text-center" id="login_register_msg">注册</h3>
+            <form action="/users/register" method="POST">
+                <div class="form-group register_first">
+                    <label for="name">用户名:</label>
+                    <input type="text" value="{{name}}" name="name" placeholder="请输入用户名" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱:</label>
+                    <input type="email" value="{{email}}" name="email" placeholder="请输入email" autocomplete="off"
+                        pattern="^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="password">密码:</label>
+                    <input type="password" value="{{password}}" name="password" placeholder="请输入密码" required>
+                </div>
+                <div class="form-group register_last">
+                    <label for="password">确认密码:</label>
+                    <input type="password" value="{{password2}}" name="password2" placeholder="请确认密码" required>
+                </div>
+                <button type="submit" class="btn btn-primary" id="login_register_btn">注册</button>
+                <p class="message">已经有了一个账户? <a href="/users/login">立刻登录</a></p>
+            </form>
+        </div>
+    </div>
+</div>
